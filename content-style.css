@@ -1,0 +1,41 @@
+/* body */
+body {
+    margin: auto;
+    background-color: black;
+}
+
+/* navigation bar */
+
+.NVBDV {
+    background-color: rgb(96, 96, 94);
+    overflow: hidden;
+}
+.NVBDV a.ACTIVE_CONTENT {
+    background-color: #04aa6d;
+    color: white;
+}
+.NVBDV a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.NVBDV a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* content */
+
+.slider-gambar1 {
+    display: flex;
+
+}
+.slider {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+
+}

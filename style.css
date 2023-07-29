@@ -1,0 +1,80 @@
+body {
+    background-color: black;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.NVBDV {
+background-color: rgb(96, 96, 94);
+overflow: hidden;
+}
+.NVBDV a.ACTIVE_NVB {
+    background-color: #04aa6d;
+    color: white;
+}
+.NVBDV a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.NVBDV a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.TITLE_CONTENT_H1 {
+    align-items: center;
+    color: #ddd;
+    
+}
+.IMG_CH1 {
+    width: 70%;
+    height: 70%;
+}
+
+/* CONTENT CSS */
+
+
+.hr_content1 {
+    height: 5px;
+}
+form {
+    justify-content: center;
+    width:500px;margin:50px auto;
+}
+.search {
+    padding:8px 15px; background: #f0f8ff; border:2px solid #008080;
+}
+.button {
+    position:relative;left:-4px;          padding:10px 15px; border:0px solid #008080;          background-color: #04aa6d; color:#fafafa;font-weight:bold;
+}
+.button:hover {
+    background: #008080;          color:#fafafa;
+}
+.button:active {
+    background:#9ACD32;}
+.vid_button {
+        justify-content: center;
+        align-items: center;
+}
+.button_myvd {
+        border-radius: 20px;
+        border: 1px solid #04aa6d;
+        background-color: #04aa6d;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 12px 45px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: transform 80ms ease-out;
+        cursor: pointer;    
+}
+.hr_myvid {
+    width: 17%; height: 5px;
+}
+/* ABOUT CSS */
+
+
+

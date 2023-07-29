@@ -1,0 +1,90 @@
+body {
+    margin: auto;
+}
+
+.NVBDV {
+    background-color: rgb(96, 96, 94);
+    overflow: hidden;
+    }
+    .NVBDV a.ACTIVE_ABOUT {
+        background-color: #04aa6d;
+        color: white;
+    }
+    .NVBDV a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .NVBDV a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+table {
+    border-color: #fff;
+}
+.table-profile {
+    background-color: rgb(96, 96, 94);
+}
+.table-pp {
+    margin-right: 0%;
+    background-color: rgb(96, 96, 94);
+}
+.dev {
+    color: #fff;
+}
+.img-pp {
+    border-color: #fff;
+}
+.dev-name {
+    color: #fff;
+}
+.d- {
+    background-color: rgb(96, 96, 94);
+    width: 100%;
+    height: 100%;
+}
+.d-deskripsi {
+    
+    border: 3px #fff;
+}
+.table-link {
+    background-color: rgb(96, 96, 94);
+}
+.button_myvd a:hover {
+    background: #008080;          color:#fafafa;
+}
+.vid_button {
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+.button_myvd {
+    border-radius: 20px;
+    border: 1px solid #04aa6d;
+    background-color: #04aa6d;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-out;
+    cursor: pointer;    
+}
+.hr_myvid {
+width: 17%; height: 5px;
+}
+.deskripsi {
+    background-color: rgb(96, 96, 94);
+    margin-right: 70%;
+}
+.isi-deskripsi {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.judul-d {
+    font-family: 'Times New Roman', Times, serif;
+}

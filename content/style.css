@@ -1,22 +1,26 @@
 body {
-    background-color: black;
+    background-color: #ffff;
 
 }
 .home {
     margin-top: 5rem;
 }
 h2 {
-    color: aliceblue;
+    color: black;
+}
+#content-judul  {
+    background-color: #ffff0091;
+
 }
 .jumbotron {
     margin: 2rem 1rem;
 }
 p {
-    color: aliceblue;
+    color: black;
 }
 h1 {
-    color: aliceblue;
+    color: black;
 }
 footer {
-    background-color: #04aa6d;
+    background-color: #ffff00;
 }

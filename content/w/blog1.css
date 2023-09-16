@@ -1,0 +1,6 @@
+    body {
+        background-image: url('gambar/background.jpg'); /* Ganti 'path/to/your-image.jpg' dengan path ke gambar Anda */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejin Kapitan Patimura</title>
+    <!-- Tambahkan link ke Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="blog1.css">
+    <style>
+        
+        .centered {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%; /* Tinggi elemen sesuai dengan tinggi layar (viewport) */
+        }
+        .text-box {
+            background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang teks box (transparan) */
+            padding: 20px; /* Jarak antara teks dan tepi teks box */
+            border-radius: 10px; /* Membuat sudut teks box menjadi melengkung */
+        }
+        .text-box1 {
+            background-color: rgba(0, 0, 0, 0.7); /* Warna latar belakang teks box (transparan) */
+            padding: 20px; /* Jarak antara teks dan tepi teks box */
+            border-radius: 10px; /* Membuat sudut teks box menjadi melengkung */
+            animation: fadeIn 2s ease-in; /* Animasi masuk dengan durasi 2 detik */
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .running-text {
+            animation: moveRight 10s;
+        }
+        @keyframes moveRight {
+            0% {
+                transform: translateX(100%);
+            }
+            10% {
+                transform: translateX(-100%);
+            }
+        }
+       
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://instagram.com/engineering.xi3?igshid=MmU2YjMzNjRlOQ=="> XI-3 Science Tech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bloog1.html">Kembali</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#a1">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#a2">Developer</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br>
+
+    <!-- Gambar Lingkaran di Tengah Halaman -->
+    <div id="a1" class="container mt-4 ">
+        <div class="text-center">
+            <img src="gambar/Tanpa judul (Logo).png" alt="Gambar Lingkaran" class="img-fluid rounded-circle mx-auto" width="200" height="200">
+        </div>
+    </div>
+
+    <!-- Judul -->
+    <div class="container mt-4 text-center">
+        <h1>Kelompok 1</h1>
+        <h2>Sejarah Indonesia</h2>
+    </div>
+
+    <!-- Teks Box di Tengah Halaman -->
+    <div class="container mt-4 centered">
+        <div class="text-center text-box text-light">
+            <h4  id="a1">Terimakasih Telas Berkunjung</h4>
+            <p>Mohon maaf jika ada informasi yang kurang akurat maupun penulisan yang kurang tepat. Halaman Website ini disusun sebagai syarat pemenuhan tugas Sejarah Indonesia Fase E/kelas 11 (XI-3) SMA Muslimin Cililin tahun 2023-2024. Developer berharap dengan dibuatnya website ini dapat memenuhi tugas mata pelajaran Sejarah Indonesia, serta semoga seluruh anggota kelas XI-3 bisa mendpatkan nilai yang baik di semester ini maupun di disemester yang akan datang. Sekian dari kami....</p>
+            <p class="fst-italic">
+                "Janganlah kita melupakan masalalu, karena masalalu merupakan sejarah dari kehidupan kita."
+                <p>~
+                    <a href="https://instagram.com/bang_biyung?igshid=NTc4MTIwNjQ2YQ==" class="text-center text-light fw-bold fst-italic">
+                        <u>
+                            Bang Biyung
+                        </u>
+                    </a>~
+                </p>
+            </p>
+        </div>
+    </div>
+
+         <!-- Teks Box dengan Daftar Nama Anggota Kelompok -->
+    <div class="container mt-4 centered text-light">
+        <div class="text-center text-box1">
+            <h4  id="a2">Daftar Nama Anggota Kelompok</h4>
+            <ul>
+                <li>Abizar</li>
+                <li>Galih Permana</li>
+                <li>M, Pasha</li>
+                <li>Resti</li>
+                <li>Said Abdul Wahab</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Running Text Berwarna Putih -->
+    <div class="container mt-4 text-center">
+        <div class="running-text fw-bold">
+            <i class="fas fa-hand-holding-heart">           
+                <i>
+                    Salam hangat dari XI-3 Engineering
+
+                </i>
+            </i>
+        </div>
+    </div>
+
+<br>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p class="fs-6">
+            Dibuat dengan         
+            <i class="bi bi-heart-fill text-danger"></i>
+            Oleh 
+                <a href="https://instagram.com/engineering.xi3?igshid=MmU2YjMzNjRlOQ==" class="fw-bold text-decoration-underline text-light">               
+                    XI-3 Engineering Class
+                </a>
+
+        </p>
+    </footer>
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <!-- Tambahkan link ke Bootstrap JavaScript (jQuery dan Popper.js diperlukan) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,237 @@
+/* Dasar */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: rgba(51, 169, 212, 0.402);
+    font-size: 18px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+/* woyyy awas container kelewat */
+/* .container {
+    display: grid; 
+    grid-template-areas: "header"
+    "konten"
+    "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr; 
+} */
+
+
+/* Navigation */
+.navi {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu .title {
+    font-size: 1.5em;
+    /* align-content: center; */
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.title h1 {
+    color: white;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    /* gap: 5px; */
+    font-size: 0.9em;
+    margin-right: 0px;
+  
+}
+
+.menu a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: rgba(51, 169, 212, 0.402);
+}
+
+
+
+
+
+
+/* header */
+.header {
+    display: block;
+    display: grid;
+    grid-template-areas: 
+    'hero';
+}
+.hero {
+    grid-area: hero;
+    min-height: 600px;
+    background-image: url('img/img-header.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sheading{
+    background-color: rgba(0, 0, 0, 0.651);
+    min-height: 600px;
+    text-align: center;
+    color: white;
+    display: grid;
+    justify-content: center ;
+    align-content: center;
+    gap: 10px;
+
+}
+
+
+
+
+/* konten */
+.konber {
+    /* grid-area: konten; */
+    display: grid;
+    grid-template-areas: "konten1 konten2 konten3"
+                         "konten4 konten5 konten6";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-items: center;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgba(51, 169, 212, 0.739);
+    text-align: center;
+}
+
+.card h3 {
+    color: white;
+}
+
+.card button {
+    background-color: azure;
+    border-color: rgb(224, 240, 240);
+    border-radius: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 0,7em;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-right: 5px;
+    color: black;
+}
+
+.kon1 {
+    grid-area: konten1;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.kon2 {
+    grid-area: konten2;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.kon3 {
+    grid-area: konten3;
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+.kon4 {
+    grid-area: konten4;
+    width: 98%;
+}
+
+.kon5 {
+    grid-area: konten5;
+    width: 98%;
+}
+
+.kon6 {
+    grid-area: konten6;
+    width: 98%;
+}
+
+
+
+
+/* footer */
+.top {
+    background-color: rgba(51, 169, 212, 0.739);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+.top img {
+    width: 30px;
+    border-radius: 10px;
+}
+.top p {
+    padding-left: 1%;
+}
+.bottom {
+    background-color: azure;
+}
+.bottom p {
+    justify-content: center;
+    align-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align: center;
+}
+.bottom p a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+
+
+
+
+/*responsiv*/
+@media (max-width: 940px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-widht: 600px) {
+    .menu {
+        order: 1;
+        /* grid-template-columns: 1fr; */
+    }
+    .menu .title {
+        display: none;
+    }
+}
